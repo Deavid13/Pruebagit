@@ -4,6 +4,14 @@ public class Profesor {
 	private String dni;
 	private int telefono;
 	
+	//Constructor
+	public Profesor(String nombre, String dni, int telefono) {
+		super();
+		this.nombre = nombre;
+		this.dni = dni;
+		this.telefono = telefono;
+	}
+	
 	
 	
 }
